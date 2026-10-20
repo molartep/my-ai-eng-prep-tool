@@ -1,0 +1,102 @@
+generator client {
+ provider = "prisma-client-js"
+}
+datasource db {
+ provider = "sqlite"
+ url = env("DATABASE_URL")
+}
+model Category {
+ id String @id
+ title String
+ description String
+ position Int
+ topics Topic[]
+}
+model Topic {
+ id String @id
+ categoryId String
+ category Category @relation(fields:[categoryId], references:[id])
+ title String
+ difficulty String
+ article String
+ questions Question[]
+ progress TopicProgress?
+}
+model Question {
+ id String @id
+ topicId String
+ topic Topic @relation(fields:[topicId], references:[id])
+ type String
+ difficulty String
+ prompt String
+ content String
+ attempts Attempt[]
+ review Review?
+}
+model Source {
+ id String @id
+ title String
+ publisher String
+ url String
+ retrievedAt String
+ repositoryPath String?
+ commit String?
+}
+model TopicProgress {
+ topicId String @id
+ topic Topic @relation(fields:[topicId],references:[id])
+ status String @default("not_started")
+ bookmarked Boolean @default(false)
+ note String @default("")
+ updatedAt DateTime @updatedAt
+}
+model Attempt {
+ id String @id
+ questionId String
+ question Question @relation(fields:[questionId],references:[id])
+ sessionId String?
+ session Session? @relation(fields:[sessionId],references:[id])
+ answer String
+ score Float?
+ method String
+ feedback String
+ confidence Int?
+ covered String @default("[]")
+ duration Int @default(0)
+ createdAt DateTime @default(now())
+}
+model Session {
+ id String @id
+ mode String
+ title String
+ config String
+ questionIds String
+ currentIndex Int @default(0)
+ status String @default("active")
+ duration Int @default(0)
+ createdAt DateTime @default(now())
+ completedAt DateTime?
+ attempts Attempt[]
+}
+model Review {
+ questionId String @id
+ question Question @relation(fields:[questionId],references:[id])
+ dueAt DateTime @default(now())
+ interval Int @default(0)
+ ease Float @default(2.5)
+ repetitions Int @default(0)
+ lapses Int @default(0)
+ bookmarked Boolean @default(false)
+ difficult Boolean @default(false)
+ note String @default("")
+}
+model ReviewEvent {
+ id String @id
+ questionId String
+ rating String
+ createdAt DateTime @default(now())
+}
+model Preference {
+ id String @id @default("user")
+ value String @default("{}")
+}

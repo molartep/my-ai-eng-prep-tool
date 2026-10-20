@@ -1,0 +1,151 @@
+[
+  {
+    "id": "repo",
+    "title": "AI Engineering from Scratch",
+    "publisher": "Rohit Ghumare",
+    "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
+    "retrievedAt": "2026-10-09",
+    "repositoryPath": "README.md",
+    "commit": "b6a7a1706bae08c6b4e90f2d9dbfd997f8cbe126"
+  },
+  {
+    "id": "hf",
+    "title": "Hugging Face LLM Course",
+    "publisher": "Hugging Face",
+    "url": "https://huggingface.co/learn/llm-course/chapter1/1",
+    "retrievedAt": "2026-10-09"
+  },
+  {
+    "id": "generation",
+    "title": "Text generation",
+    "publisher": "Hugging Face",
+    "url": "https://huggingface.co/docs/transformers/main/en/llm_tutorial",
+    "retrievedAt": "2026-10-09"
+  },
+  {
+    "id": "lost",
+    "title": "Lost in the Middle",
+    "publisher": "Liu et al.",
+    "url": "https://arxiv.org/abs/2307.03172",
+    "retrievedAt": "2026-10-09"
+  },
+  {
+    "id": "rag-paper",
+    "title": "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks",
+    "publisher": "Lewis et al.",
+    "url": "https://arxiv.org/abs/2005.11401",
+    "retrievedAt": "2026-10-09"
+  },
+  {
+    "id": "hybrid",
+    "title": "Hybrid search overview",
+    "publisher": "Microsoft Learn",
+    "url": "https://learn.microsoft.com/en-us/azure/search/hybrid-search-overview",
+    "retrievedAt": "2026-10-09"
+  },
+  {
+    "id": "ragas",
+    "title": "Ragas: Automated Evaluation of Retrieval Augmented Generation",
+    "publisher": "Es et al.",
+    "url": "https://arxiv.org/abs/2309.15217",
+    "retrievedAt": "2026-10-09"
+  },
+  {
+    "id": "llama-eval",
+    "title": "Evaluating",
+    "publisher": "LlamaIndex",
+    "url": "https://developers.llamaindex.ai/python/framework/module_guides/evaluating/",
+    "retrievedAt": "2026-10-09"
+  },
+  {
+    "id": "agents-doc",
+    "title": "Building effective agents",
+    "publisher": "Anthropic",
+    "url": "https://www.anthropic.com/engineering/building-effective-agents",
+    "retrievedAt": "2026-10-09"
+  },
+  {
+    "id": "tools-doc",
+    "title": "Function calling",
+    "publisher": "OpenAI",
+    "url": "https://developers.openai.com/api/docs/guides/function-calling",
+    "retrievedAt": "2026-10-09"
+  },
+  {
+    "id": "structured",
+    "title": "Structured model outputs",
+    "publisher": "OpenAI",
+    "url": "https://developers.openai.com/api/docs/guides/structured-outputs",
+    "retrievedAt": "2026-10-09"
+  },
+  {
+    "id": "mcp-doc",
+    "title": "Architecture overview (2026-07-28)",
+    "publisher": "Model Context Protocol",
+    "url": "https://modelcontextprotocol.io/docs/2026-07-28/learn/architecture",
+    "retrievedAt": "2026-10-09"
+  },
+  {
+    "id": "mcp-security",
+    "title": "Security best practices (2026-07-28)",
+    "publisher": "Model Context Protocol",
+    "url": "https://modelcontextprotocol.io/docs/2026-07-28/tutorials/security/security_best_practices",
+    "retrievedAt": "2026-10-09"
+  },
+  {
+    "id": "skills",
+    "title": "Agent Skills specification",
+    "publisher": "Agent Skills",
+    "url": "https://agentskills.io/specification",
+    "retrievedAt": "2026-10-09"
+  },
+  {
+    "id": "graph",
+    "title": "LangGraph overview",
+    "publisher": "LangChain",
+    "url": "https://docs.langchain.com/oss/python/langgraph/overview",
+    "retrievedAt": "2026-10-09"
+  },
+  {
+    "id": "persistence",
+    "title": "Persistence",
+    "publisher": "LangChain",
+    "url": "https://docs.langchain.com/oss/python/langgraph/persistence",
+    "retrievedAt": "2026-10-09"
+  },
+  {
+    "id": "chain",
+    "title": "LangChain overview",
+    "publisher": "LangChain",
+    "url": "https://docs.langchain.com/oss/python/langchain/overview",
+    "retrievedAt": "2026-10-09"
+  },
+  {
+    "id": "eval-doc",
+    "title": "Evaluation best practices",
+    "publisher": "OpenAI",
+    "url": "https://developers.openai.com/api/docs/guides/evaluation-best-practices",
+    "retrievedAt": "2026-10-09"
+  },
+  {
+    "id": "google-eval",
+    "title": "Gen AI evaluation overview",
+    "publisher": "Google Cloud",
+    "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/evaluation-overview",
+    "retrievedAt": "2026-10-09"
+  },
+  {
+    "id": "ir",
+    "title": "Evaluation of ranked retrieval results",
+    "publisher": "Manning, Raghavan and Schütze (Stanford)",
+    "url": "https://nlp.stanford.edu/IR-book/html/htmledition/evaluation-of-ranked-retrieval-results-1.html",
+    "retrievedAt": "2026-10-09"
+  },
+  {
+    "id": "ollama",
+    "title": "Generate a chat message",
+    "publisher": "Ollama",
+    "url": "https://docs.ollama.com/api/chat",
+    "retrievedAt": "2026-10-09"
+  }
+]
